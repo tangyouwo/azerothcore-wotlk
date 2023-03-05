@@ -159,6 +159,11 @@ int main(int argc, char** argv)
         },
         []()
         {
+            LOG_ERROR("dbimport", "===========================免责声明========================================");
+            LOG_ERROR("dbimport", "===========================神秘的分割线====================================");
+            LOG_ERROR("dbimport", "===========================编译者:大蛇丸的太阳花 ===========================");
+            LOG_ERROR("dbimport", "===========================仅供交流学习使用=================================");
+            LOG_ERROR("dbimport", "===========================神秘的分割线=====================================");
             LOG_INFO("server.worldserver", "> Using configuration file       {}", sConfigMgr->GetFilename());
             LOG_INFO("server.worldserver", "> Using SSL version:             {} (library: {})", OPENSSL_VERSION_TEXT, OpenSSL_version(OPENSSL_VERSION));
             LOG_INFO("server.worldserver", "> Using Boost version:           {}.{}.{}", BOOST_VERSION / 100000, BOOST_VERSION / 100 % 1000, BOOST_VERSION % 100);
